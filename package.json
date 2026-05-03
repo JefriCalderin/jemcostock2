@@ -1,0 +1,17 @@
+{
+  "name": "jemcostock",
+  "version": "1.0.0",
+  "description": "Sistema de inventario y gestión de tarjetas JemcoStock",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "cors": "^2.8.5",
+    "@libsql/client": "^0.17.0"
+  }
+}
